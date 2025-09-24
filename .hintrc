@@ -9,6 +9,13 @@
         "link-name": "off"
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
