@@ -15,12 +15,12 @@
 }
 
 :root {
-  --fundo-principal: #ebebeb;
-  --texto: #303030;
-  --texto-inverso: #ffffffff;
-  --destaque: #0077ff;
-  --destaque-iverso: #66bbff;
-  --fundo-card: #ffffffff
+  --fundo-principal: #272727;
+  --texto: #c2c2c2;
+  --texto-inverso: rgb(48, 48, 48);
+  --destaque: #00c3ff;
+  --destaque-iverso: #004a61;
+  --fundo-card: rgb(44, 44, 44);
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 header {
   background-color: var(--destaque);
   color: var(--texto);
-  padding: 10px;
+  padding: 11px;
   display: flex;
   justify-content: flex-end;
   align-content: center;
@@ -49,7 +49,7 @@ nav#menu a {
   text-decoration: none;
   color: var(--texto-inverso);
   font-weight: 600;
-  padding: 12px 15px;
+  padding: 13.5px 15px;
   border-radius: 0;
   transition: backgorund-color 0.5s, color 0.5s;
 }
@@ -82,7 +82,7 @@ section#ficha img.foto {
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
-  outline: 5px solid rgb(67, 212, 0);
+  outline: 5px solid var(--destaque);
   display: block;
   margin: auto;
   margin-bottom: 15px;
@@ -166,7 +166,7 @@ section#detalhes {
 
 #skill-container .progresso {
   height: 100%;
-  background-color: var(--destaque-iverso);
+  background-color: var(--destaque);
   border-radius: 4px;
 }
 
@@ -179,11 +179,11 @@ i {
 }
 
 .fa-person-snowboarding {
-  color: var(--destaque-iverso);
+  color: var(--destaque);
 }
 
 .fa-comments {
-  color: var(--destaque-iverso);
+  color: var(--destaque);
 }
 
 .fa-html5 {
