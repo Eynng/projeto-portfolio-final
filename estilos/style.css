@@ -16,7 +16,7 @@
 
 :root {
   --fundo-principal: #272727;
-  --texto: #c2c2c2;
+  --texto: #ffffff;
   --texto-inverso: rgb(48, 48, 48);
   --destaque: #00c3ff;
   --destaque-iverso: #004a61;
@@ -236,10 +236,75 @@ i {
   color: var(--destaque);
 }
 
+#projeto-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+#projeto-container .projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-iverso);
+  transition: border-color 0.5s, border-width 0.5s;
+}
+
+#projeto-container .projeto:hover {
+  border-color: var(--destaque);
+  border-left-width: 15px ;
+  cursor: pointer;
+}
+
+#projeto-container .foto {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: var(--destaque);
+  color: var(--texto);
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: var(--texto);
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+footer a:hover {
+  color: var(--texto-inverso);
+  transition: 0.7s;
+}
+
 /* RESPONSIVIDADE */
 
 @media screen and (min-width: 768px) {
   #skill-container {
     grid-template-columns: 1fr 1fr ;
+  }
+
+  #projeto-container .projeto {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #projeto-container .projeto-info {
+    max-width: 80%;
+  }
+
+  #projeto-container .foto {
+    aspect-ratio: 1/1;
+    max-width: 20%;
+    max-height: 200px
   }
 }
