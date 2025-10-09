@@ -20,8 +20,8 @@
   --fundo-principal: #f5f5f5;
   --texto: #757575;
   --texto-inverso: #ffffff;
-  --destaque: #1989e4;
-  --destaque-iverso: #7eccff;
+  --destaque: #0066ff;
+  --destaque-iverso: #00ccff;
   --fundo-card: #ffffff;
 }
 
@@ -84,7 +84,7 @@ section#ficha img.foto {
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
-  outline: 5px solid var(--destaque);
+  outline: 5px solid var(--destaque-iverso);
   display: block;
   margin: auto;
   margin-bottom: 15px;
