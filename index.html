@@ -1,333 +1,433 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
-    <script src="https://kit.fontawesome.com/aa8eef92f4.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <script
+      src="https://kit.fontawesome.com/aa8eef92f4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Esdras Lira</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-folder-closed"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
-            </ul>
-        </nav>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li>
+            <a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a>
+          </li>
+          <li>
+            <a href="#formacao" class="link"
+              ><i class="fa-solid fa-graduation-cap"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#projetos" class="link"
+              ><i class="fa-solid fa-folder-closed"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="ficha">
-            <img src="imagens/Esdras Oficial 300x300.png" alt="Esdras Lira" class="foto">
-            <h1>Esdras Lira</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque provident tenetur sunt ullam blanditiis recusandae laudantium, iusto doloribus omnis cumque veritatis quasi commodi quae deleniti eveniet alias harum nostrum!</p>
-            <div id="social">
+      <section id="ficha">
+        <img
+          src="imagens/Esdras Oficial 300x300.png"
+          alt="Esdras Lira"
+          class="foto"
+        />
+        <h1>Esdras Lira</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque
+          provident tenetur sunt ullam blanditiis recusandae laudantium, iusto
+          doloribus omnis cumque veritatis quasi commodi quae deleniti eveniet
+          alias harum nostrum!
+        </p>
+        <div id="social">
+          <a
+            href="https://www.linkedin.com/in/esdras-lira-058b9117b/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Eynng" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/eynng.dev/?igsh=ZmFpNzZ2cG1uaDcy#"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://discord.gg/Sqa7jvxb" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+          <a
+            href="https://steamcommunity.com/profiles/76561199084612405/"
+            target="_blank"
+            ><i class="fa-brands fa-steam"></i
+          ></a>
+        </div>
+      </section>
 
-                <a href="https://www.linkedin.com/in/esdras-lira-058b9117b/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Eynng"target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/eynng.dev/?igsh=ZmFpNzZ2cG1uaDcy#"target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://discord.gg/Sqa7jvxb"target="_blank"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://steamcommunity.com/profiles/76561199084612405/"target="_blank"><i class="fa-brands fa-steam"></i></a>
+      <!--AQUI COMÇA OS DETALHES-->
 
+      <section id="detalhes">
+        <!--AQUI COMÇA A APRESENTAÇÃO-->
+
+        <article id="inicio">
+          <h2><i class="fa-solid fa-handshake"></i> Deixe-me apresentar</h2>
+        </article>
+
+        <!--AQUI COMÇA AS SKILLS-->
+
+        <article id="skills">
+          <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+
+          <div id="skill-container">
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-brands fa-html5"></i> HTML5
+                </span>
+                <span class="porcent"> 75% </span>
+              </div>
+              <div class="barra">
+                <div
+                  class="progresso"
+                  style="width: 75%; background-color: red"
+                ></div>
+              </div>
             </div>
-        </section>
 
-        <!--AQUI COMÇA OS DETALHES-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-brands fa-css3-alt"></i> CSS3
+                </span>
+                <span class="porcent"> 60% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 60%"></div>
+              </div>
+            </div>
 
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-brands fa-js"></i> JavaScript
+                </span>
+                <span class="porcent"> 30% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 30%"></div>
+              </div>
+            </div>
 
-        <section id="detalhes">
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-brands fa-node"></i> Node.JS
+                </span>
+                <span class="porcent"> 20% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 20%"></div>
+              </div>
+            </div>
 
-            <!--AQUI COMÇA A APRESENTAÇÃO-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-person-snowboarding"></i> Adaptabilidade
+                </span>
+                <span class="porcent"> 70% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 70%"></div>
+              </div>
+            </div>
 
-            <article id="inicio">
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-comments"></i> Comunicação
+                </span>
+                <span class="porcent"> 50% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 50%"></div>
+              </div>
+            </div>
+          </div>
+        </article>
 
-                <h2><i class="fa-solid fa-handshake"></i> Deixe-me apresentar</h2>
+        <!--AQUI COMÇA AS FORMAÇÕES-->
 
-            </article>
+        <article id="formacao">
+          <h2><i class="fa-solid fa-graduation-cap"></i> Cursos e Formações</h2>
 
-            <!--AQUI COMÇA AS SKILLS-->
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">03/10/2022 - 14/10/2022</p>
+              <h3 class="instituicao">SENAC</h3>
+              <p class="titulacao">JAVASCRIPT - Interatividade para WEB</p>
+            </div>
+          </div>
 
-            <article id="skills">
-                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">13/12/2021 - 02/03/2022</p>
+              <h3 class="instituicao">SENAI</h3>
+              <p class="titulacao">Tecnologia da Informação e Comunicação</p>
+            </div>
+          </div>
 
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-brands fa-html5"></i> HTML5
-                            </span>
-                            <span class="porcent">
-                                75%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 75%;"></div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">23/07/2022 - 11/09/2022</p>
+              <h3 class="instituicao">Fundação Bradesco</h3>
+              <p class="titulacao">
+                Criação de sites usando HTML, CSS E JAVASCRIPT
+              </p>
+            </div>
+          </div>
 
-                        </div>
-                    </div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">22/07/2024 - 22/08/2025</p>
+              <h3 class="instituicao">Curso em Video</h3>
+              <p class="titulacao">HTML5 & CSS3 - Módulo 1 ao 5</p>
+            </div>
+          </div>
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-brands fa-css3-alt"></i> CSS3
-                            </span>
-                            <span class="porcent">
-                                60%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 60%;"></div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">28/07/2025 - 02/10/2025</p>
+              <h3 class="instituicao">Curso em Video</h3>
+              <p class="titulacao">JAVASCRIPT - Módulo A ao F</p>
+            </div>
+          </div>
 
-                        </div>
-                    </div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">09/07/2022</p>
+              <h3 class="instituicao">Kenzie Academy</h3>
+              <p class="titulacao">
+                Maratona invertida, abordando HTML, CSS e JavaScript
+              </p>
+            </div>
+          </div>
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-brands fa-js"></i> JavaScript
-                            </span>
-                            <span class="porcent">
-                                30%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 30%;"></div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">11/04/2024</p>
+              <h3 class="instituicao">Escola do Trabalhador 4.0</h3>
+              <p class="titulacao">Trabalho com Computadores</p>
+            </div>
+          </div>
 
-                        </div>
-                    </div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">02/12/2021 - 31/01/2022</p>
+              <h3 class="instituicao">IFRS Aprenda Mais +</h3>
+              <p class="titulacao">Curso de Inglês 1</p>
+            </div>
+          </div>
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i  class="fa-brands fa-node"></i> Node.JS
-                            </span>
-                            <span class="porcent">
-                                20%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 20%;"></div>
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">01/01/2018 - 31/12/2020</p>
+              <h3 class="instituicao">Colégio Santa Maria</h3>
+              <p class="titulacao">Ensino Medio - COMPLETO</p>
+            </div>
+          </div>
+        </article>
 
-                        </div>
-                    </div>
+        <!--AQUI COMÇA OS PROJETOS-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-snowboarding"></i> Adaptabilidade
-                            </span>
-                            <span class="porcent">
-                                70%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 70%;"></div>
+        <article id="projetos">
+          <h2><i class="fa-solid fa-folder-tree"> </i> Projetos</h2>
 
-                        </div>
-                    </div>
+          <div id="projeto-container">
+            <div class="projeto">
+              <!--Projeto 01-->
+              <img
+                src="imagens/Projeto de vídeos.PNG"
+                alt="Projeto1"
+                class="foto"
+              />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de videos em nosso
+                  site.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam necessitatibus natus qui unde molestiae voluptatibus
+                    corporis earum error quas laudantium doloremque ullam, ad
+                    blanditiis quos neque quibusdam tempore aspernatur eligendi.
+                  </p>
+                </details>
+              </div>
+            </div>
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-comments"></i> Comunicação
-                            </span>
-                            <span class="porcent">
-                                50%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 50%;"></div>
+            <div class="projeto">
+              <!--Projeto 02-->
+              <img
+                src="imagens/Projeto de vídeos.PNG"
+                alt="Projeto1"
+                class="foto"
+              />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de videos em nosso
+                  site.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam necessitatibus natus qui unde molestiae voluptatibus
+                    corporis earum error quas laudantium doloremque ullam, ad
+                    blanditiis quos neque quibusdam tempore aspernatur eligendi.
+                  </p>
+                </details>
+              </div>
+            </div>
 
-                        </div>
-                    </div>
-                </div>
+            <div class="projeto">
+              <!--Projeto 03-->
+              <img
+                src="imagens/Projeto de vídeos.PNG"
+                alt="Projeto1"
+                class="foto"
+              />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de videos em nosso
+                  site.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam necessitatibus natus qui unde molestiae voluptatibus
+                    corporis earum error quas laudantium doloremque ullam, ad
+                    blanditiis quos neque quibusdam tempore aspernatur eligendi.
+                  </p>
+                </details>
+              </div>
+            </div>
 
-            </article>
+            <div class="projeto">
+              <!--Projeto 04-->
+              <img
+                src="imagens/Projeto de vídeos.PNG"
+                alt="Projeto1"
+                class="foto"
+              />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de videos em nosso
+                  site.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam necessitatibus natus qui unde molestiae voluptatibus
+                    corporis earum error quas laudantium doloremque ullam, ad
+                    blanditiis quos neque quibusdam tempore aspernatur eligendi.
+                  </p>
+                </details>
+              </div>
+            </div>
 
-            <!--AQUI COMÇA AS FORMAÇÕES-->
-            
-            <article id="formacao">
-                <h2><i class="fa-solid fa-graduation-cap"></i> Cursos e Formações</h2>
+            <div class="projeto">
+              <!--Projeto 05-->
+              <img
+                src="imagens/Projeto de vídeos.PNG"
+                alt="Projeto1"
+                class="foto"
+              />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de videos em nosso
+                  site.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam necessitatibus natus qui unde molestiae voluptatibus
+                    corporis earum error quas laudantium doloremque ullam, ad
+                    blanditiis quos neque quibusdam tempore aspernatur eligendi.
+                  </p>
+                </details>
+              </div>
+            </div>
 
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">03/10/2022 - 14/10/2022</p>
-                        <h3 class="instituicao">SENAC</h3>
-                        <p class="titulacao">JAVASCRIPT - Interatividade para WEB</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">13/12/2021 - 02/03/2022</p>
-                        <h3 class="instituicao">SENAI</h3>
-                        <p class="titulacao">Tecnologia da Informação e Comunicação</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">23/07/2022 - 11/09/2022</p>
-                        <h3 class="instituicao">Fundação Bradesco</h3>
-                        <p class="titulacao">Criação de sites usando HTML, CSS E JAVASCRIPT</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">22/07/2024 - 22/08/2025</p>
-                        <h3 class="instituicao">Curso em Video</h3>
-                        <p class="titulacao">HTML5 & CSS3 - Módulo 1 ao 5</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">28/07/2025 - 02/10/2025</p>
-                        <h3 class="instituicao">Curso em Video</h3>
-                        <p class="titulacao">JAVASCRIPT - Módulo A ao F</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo"> 09/07/2022</p>
-                        <h3 class="instituicao">Kenzie Academy</h3>
-                        <p class="titulacao"> Maratona invertida, abordando HTML, CSS e JavaScript</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">11/04/2024</p>
-                        <h3 class="instituicao">Escola do Trabalhador 4.0</h3>
-                        <p class="titulacao">Trabalho com Computadores</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">02/12/2021 - 31/01/2022</p>
-                        <h3 class="instituicao">IFRS Aprenda Mais +</h3>
-                        <p class="titulacao"> Curso de Inglês 1</p>
-                    </div>
-                </div>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">01/01/2018 - 31/12/2020</p>
-                        <h3 class="instituicao">Colégio Santa Maria</h3>
-                        <p class="titulacao">Ensino Medio - COMPLETO</p>
-                    </div>
-                </div>
-
-            </article>
-
-            <!--AQUI COMÇA OS PROJETOS-->
-
-            <article id="projetos">
-
-                <h2><i class="fa-solid fa-folder-tree">
-                </i> Projetos</h2>
-
-                <div id="projeto-container">
-                    <div class="projeto"> <!--Projeto 01-->
-                        <img src="imagens/Projeto de vídeos.PNG" alt="Projeto1" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construido para treinar a inserção de videos em nosso site.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus natus qui unde molestiae voluptatibus corporis earum error quas laudantium doloremque ullam, ad blanditiis quos neque quibusdam tempore aspernatur eligendi.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto"> <!--Projeto 02-->
-                        <img src="imagens/Projeto de vídeos.PNG" alt="Projeto1" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construido para treinar a inserção de videos em nosso site.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus natus qui unde molestiae voluptatibus corporis earum error quas laudantium doloremque ullam, ad blanditiis quos neque quibusdam tempore aspernatur eligendi.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto"> <!--Projeto 03-->
-                        <img src="imagens/Projeto de vídeos.PNG" alt="Projeto1" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construido para treinar a inserção de videos em nosso site.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus natus qui unde molestiae voluptatibus corporis earum error quas laudantium doloremque ullam, ad blanditiis quos neque quibusdam tempore aspernatur eligendi.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto"> <!--Projeto 04-->
-                        <img src="imagens/Projeto de vídeos.PNG" alt="Projeto1" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construido para treinar a inserção de videos em nosso site.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus natus qui unde molestiae voluptatibus corporis earum error quas laudantium doloremque ullam, ad blanditiis quos neque quibusdam tempore aspernatur eligendi.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto"> <!--Projeto 05-->
-                        <img src="imagens/Projeto de vídeos.PNG" alt="Projeto1" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construido para treinar a inserção de videos em nosso site.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus natus qui unde molestiae voluptatibus corporis earum error quas laudantium doloremque ullam, ad blanditiis quos neque quibusdam tempore aspernatur eligendi.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto"> <!--Projeto 06-->
-                        <img src="imagens/Projeto de vídeos.PNG" alt="Projeto1" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2022</p>
-                            <h3 class="titulo">Projeto de Vídeos</h3>
-                            <p>Projeto construido para treinar a inserção de videos em nosso site.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam necessitatibus natus qui unde molestiae voluptatibus corporis earum error quas laudantium doloremque ullam, ad blanditiis quos neque quibusdam tempore aspernatur eligendi.</p>
-                            </details>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </article>
-
-        </section>
-
+            <div class="projeto">
+              <!--Projeto 06-->
+              <img
+                src="imagens/Projeto de vídeos.PNG"
+                alt="Projeto1"
+                class="foto"
+              />
+              <div class="projeto-info">
+                <p class="periodo">2022</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>
+                  Projeto construido para treinar a inserção de videos em nosso
+                  site.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam necessitatibus natus qui unde molestiae voluptatibus
+                    corporis earum error quas laudantium doloremque ullam, ad
+                    blanditiis quos neque quibusdam tempore aspernatur eligendi.
+                  </p>
+                </details>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
 
     <footer>
-        Portfólio desenvolvido por <a href="https://www.linkedin.com/in/esdras-lira-058b9117b/"target="_blank">Esdras Lira</a> em 2025.
+      Portfólio desenvolvido por
+      <a
+        href="https://www.linkedin.com/in/esdras-lira-058b9117b/"
+        target="_blank"
+        >Esdras Lira</a
+      >
+      em 2025.
     </footer>
-    
 
     <script src="scripts/script.js"></script>
-</body>
+  </body>
 </html>
