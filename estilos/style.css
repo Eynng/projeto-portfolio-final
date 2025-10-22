@@ -241,7 +241,7 @@ i {
 
 #projeto-container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   gap: 20px;
 }
 
