@@ -103,7 +103,7 @@ div#social {
   justify-content: center;
   align-items: center;
   font-size: 1.6em;
-  gap: 1em;
+  gap: 13px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
