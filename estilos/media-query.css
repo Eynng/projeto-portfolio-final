@@ -11,6 +11,7 @@
 
   section#ficha {
     grid-column: 2 / 3;
+    grid-row: 1 / 2;
     height: fit-content;
     position: sticky;
     top: 66px;
@@ -18,12 +19,13 @@
 
   section#ficha2 {
     grid-column: 2 / 3;
+    grid-row: 2 / 3;
     height: fit-content;
     position: sticky;
-    top: 66px;
+    top: 120px;
+    
+    
   }
-
-  secion#ficha
 
   div#cv {
     text-align: center;
@@ -32,6 +34,7 @@
 
   section#detalhes {
     grid-column: 3 / 4;
+    grid-row: 1 / 2;
 
   }
   #skill-container {

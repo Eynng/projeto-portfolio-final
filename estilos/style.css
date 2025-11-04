@@ -85,18 +85,35 @@ section#ficha2 {
   grid-column: 2;
 }
 
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div#social div.cv a {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+
+div#social div.cv a:hover {
+  background-color: var(--destaque-iverso);
+  transition: 0.5s;
+}
 
 
 .btn-cv {
   background-color: var(--destaque);
   color: var(--texto-inverso);
+  width: 100%;
   padding: 10px 15px;
   border-radius: 4px;
   text-decoration: none;
   display: block;
   text-align: center;
   margin: 15px 0;
-  transition: background-color 0.5s;
 }
 
 section#ficha img.foto {
@@ -121,9 +138,11 @@ section#ficha h1 {
 
 div#social {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.3em;
+  padding: 15px;
   gap: 16px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -131,11 +150,13 @@ div#social {
 
 div#social a {
   color: var(--destaque);
-  transition: color 0.5s;
+  
 }
 
 div#social a:hover {
   color: var(--destaque-iverso);
+  transition: color 0.5s;
+  
 }
 
 article {
