@@ -11,20 +11,9 @@
 
   section#ficha {
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
     height: fit-content;
     position: sticky;
     top: 66px;
-  }
-
-  section#ficha2 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    height: fit-content;
-    position: sticky;
-    top: 120px;
-    
-    
   }
 
   div#cv {

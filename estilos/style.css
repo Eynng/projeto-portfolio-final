@@ -67,7 +67,7 @@ nav#menu a:hover {
 main {
   display: grid;
   grid-template-columns: auto 90vw auto;
-  gap: 20px;
+  gap: 10px;
   margin-top: 20px;
 }
 
@@ -76,13 +76,7 @@ section#ficha {
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
-}
-
-section#ficha2 {
-  background-color: var(--fundo-card);
-  padding: 20px;
-  border-radius: 8px;
-  grid-column: 2;
+  
 }
 
 .cv {
