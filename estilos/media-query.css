@@ -14,8 +14,21 @@
     height: fit-content;
     position: sticky;
     top: 66px;
-
   }
+
+  section#ficha2 {
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 66px;
+  }
+
+  secion#ficha
+
+  div#cv {
+    text-align: center;
+  }
+
 
   section#detalhes {
     grid-column: 3 / 4;

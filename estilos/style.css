@@ -78,6 +78,27 @@ section#ficha {
   grid-column: 2;
 }
 
+section#ficha2 {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+  grid-column: 2;
+}
+
+
+
+.btn-cv {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 15px 0;
+  transition: background-color 0.5s;
+}
+
 section#ficha img.foto {
   width: 200px;
   aspect-ratio: 1/1;
