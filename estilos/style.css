@@ -25,11 +25,21 @@
   --fundo-card: #ffffff;
 }
 
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #ffffff;
+  --destaque: #0c605f;
+  --destaque-iverso: #1df8f4;
+  --fundo-card: #000000;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.5s, color 0.5s;
 }
 
 header {
@@ -108,6 +118,12 @@ div#social div.cv a:hover {
   display: block;
   text-align: center;
   margin: 15px 0;
+}
+
+.btn-cv:hover {
+  background-color: var(--destaque-iverso);
+  color: var(--destaque);
+  transition: 0.7s;
 }
 
 section#ficha img.foto {
